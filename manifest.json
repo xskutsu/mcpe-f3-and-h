@@ -1,11 +1,11 @@
 {
     "format_version": 2,
     "header": {
-        "description": "F3&H by TsranunaPogazu\nBeta APIs required. \nDiscord: @xskt DMs open if u need help! :D (discord.gg/e8R5NMsfkP)",
+        "description": "F3&H by TsranunaPogazu\nBeta APIs NOT required.\nDiscord: @xskt DMs open if u need help! :D (discord.gg/e8R5NMsfkP)",
         "name": "F3&H",
         "uuid": "c4074495-3434-40ae-8624-ecb7d0904e1e",
-        "version": [1, 0, 10],
-        "min_engine_version": [1, 21, 30]
+        "version": [1, 0, 11],
+        "min_engine_version": [1, 21, 41]
     },
     "modules": [
         {
@@ -13,7 +13,7 @@
             "type": "script",
             "language": "javascript",
             "uuid": "dfcde46e-b5e4-454e-9403-6fc0fbdbeb24",
-            "version": [1, 0, 10],
+            "version": [1, 0, 11],
             "entry": "scripts/index.js"
         }
     ],
@@ -32,7 +32,7 @@
     "dependencies": [
         {
             "module_name": "@minecraft/server",
-            "version": "1.15.0-beta"
+            "version": "1.15.0"
         }
     ]
 }
